@@ -1,0 +1,55 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "plantinha feliz",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "chamadaAcenderLuz",
+          "slots": [],
+          "samples": [
+            "luz",
+            "acender",
+	    "ligar",
+            "ligar luz"
+          ]
+        },
+        {
+          "name": "chamadaApagarLuz",
+          "slots": [],
+          "samples": [
+            "apagar",
+            "boa noite",
+            "desligar luz"
+          ]
+        },
+        {
+          "name": "chamadaMolhar",
+          "slots": [],
+          "samples": [
+            "molhar",
+            "agua",
+            "regar"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "2"
+}

@@ -1,0 +1,49 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": ""
+        },
+        "interfaces": [],
+        "regions": {
+          "NA": {
+            "endpoint": {
+              "uri": ""
+            }
+          },
+          "EU": {
+            "endpoint": {
+              "uri": ""
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": ""
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "category": "GARDEN",
+      "distributionCountries": [],
+      "isAvailableWorldwide": true,
+      "locales": {
+        "pt-BR": {
+          "description": "Projeto para enviar comandos para sua plantinha: https://github.com/RichardBrochini/api_plantinha",
+          "examplePhrases": [
+            "Alexa Plantinha Feliz",
+            "Alexa Molhar Plantinha Feliz",
+            "Aelxa Apagar Plantinha Feliz"
+          ],
+          "keywords": [],
+          "name": "plantinha feliz",
+          "summary": "Projeto para enviar comandos para sua plantinha: https://github.com/RichardBrochini/api_plantinha"
+        }
+      },
+      "testingInstructions": "Alexa Molhar Plantinha Feliz"
+    }
+  }
+}
